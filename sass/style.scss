@@ -1,0 +1,83 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+$color_bg:rgb(240, 250, 181);
+$secondary_color: rgb(69, 6, 6);
+$primary_color:rgba(211, 184, 121, 0.872);
+$bonus_color:rgb(119, 82, 11);
+$dark_color:rgb(16, 2, 73);
+@function darkmode(){
+    @if (background-color: $dark_color){
+        $secondary_color: rgb(255, 255, 255);
+        $primary_color:rgba(0, 26, 255, 0.872);
+        $bonus_color:rgb(14, 224, 252);
+    }
+}
+body{
+    background-color: $color_bg;
+    text-align: center;
+    .btn{
+        background-color: $bonus_color;
+        
+
+    }
+    img{
+        border: 2px solid $secondary_color;
+    }
+    nav{
+        background-color: $primary_color;
+        border-bottom: 4px solid $secondary_color;
+        .nav-link {
+            color: $secondary_color;
+        }
+        .nav-link:hover{
+            color: $bonus_color;
+        }
+        .nav-link:active{
+            color: $bonus_color;
+        }
+        .nav-link:checked{
+            color: $bonus_color;
+        }
+        .btn{
+            background-color: $bonus_color;
+            
+
+        }
+    }
+    main {
+       
+        section{
+            margin-bottom: 15rem;
+            color: $secondary_color;
+           
+            
+            .card-img-overlay :not(.btn){
+                text-shadow: 5px 5px 5px black;
+                
+                
+                
+            }
+            h1{
+                margin-top: 20rem;
+                        
+            }
+            .btn{
+                background-color: $bonus_color;
+                
+
+            }
+            .card-img{
+                    opacity: 0.5;
+            }
+            
+        }
+        form{
+            margin: 10rem auto;
+        }
+    }
+    footer{
+        border-top: 4px solid $secondary_color;
+        color: $secondary_color;
+        
+    }
+}

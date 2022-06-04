@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+
+<html lang="it" class="h-100">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="sass/style.css" rel="stylesheet">
+    <link href="node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+
+<body class="d-flex flex-column h-100">
+
+    <header>
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-expand-md  bg-gradient fixed-top ">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="img/logo2.png" alt="Logo" ></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav w-100 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Info</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link active" href="#">Contatti</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="bi-twitter"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="bi-twitch"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="bi-discord"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="bi-whatsapp"></i></a></li>
+                        <!-- <li class="nav-item ">
+                            <a href="#" class="btn text-white " onclick="darkmode()">Darkmode</a>
+                        </li> -->
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Begin page content -->
+    <main class="flex-shrink-0">
+        <!-- prima sezione e prima cta -->
+      <!--   <section id="first-cta" class="first-cta">
+            <div class="container">
+                <h1 class="display-3 mt-5">La nostra passione si erge sopra ogni cosa</h1>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud..</p>
+                <a href="#" class="btn ">Iscriviti alla lista contatti</a>
+            </div>
+        </section> -->
+        <section class="card bg-dark text-white">
+            <img class="card-img" src="img/map3.jpg" alt="Immagine mappa">
+            <div class="card-img-overlay">
+              <h1 class="card-title">La storia a portata di click</h1>
+              <p class="card-text">Esplora gli angoli di tutta Europa o di tutto il mondo selezionando il periodo storico che più ti interessa</p>
+              <a href="#" class="btn text-white">Registrati</a>
+            </div>
+        </section>
+
+        <!-- Servizi disponibili utilizzando le cards. Sono tre. -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        
+                        <h3 class="display-6">...Vivi la storia...<br> <i class="bi bi-eyeglasses"></i></h3>
+                        <hr>
+                        <p>Ogni luogo nel mondo ha ospitato grandi battaglie o eventi importanti, scoprili tutti!</p>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        
+                        <h3 class="display-6">...Mappe... <br> <i class="bi bi-folder-plus"></i></h3>
+                        <hr>
+                        <p>Tutta la storia condensata su una cartina aggiornata sulle nuove scoperte storiche grazie al lavoro del nostro team di appassionati storici</p>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        
+                        <h3 class="display-6">...Docu-film... <br> <i class="bi bi-controller"></i></h3>
+                        <hr>
+                        <p>Guarda la storia attraverso un visore VR grazie ai nostri docu-film interattivi!!!</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Inserisco la sezione delle partnerships -->
+        <section id="partnerships" class="partnerships">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="rgb(119, 82, 11)" fill-opacity="1"
+                    d="M0,96L60,90.7C120,85,240,75,360,69.3C480,64,600,64,720,90.7C840,117,960,171,1080,170.7C1200,171,1320,117,1380,90.7L1440,64L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+                </path>
+            </svg>
+            <div class="container">
+                <div class="row text-center">
+                    <h4 class="display-4 mb-3">Partnerships</h4>
+                    <div class="separator"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-lg-3 partnerships-logo"><img src="img/verona.jpg" alt=""
+                            class="img-fluid"></div>
+                    <div class="col-md-3 col-lg-3 partnerships-logo"><img src="img/mondadori1.jpg" alt=""
+                            class="img-fluid"></div>
+                    <div class="col-md-3 col-lg-3 partnerships-logo"><img src="img/wikipedia.jpg" alt=""
+                            class="img-fluid"></div>
+                    <div class="col-md-3 col-lg-3 partnerships-logo"><img src="img/cafoscari.jpg" alt=""
+                            class="img-fluid"></div>
+                </div>
+            </div>
+            
+        </section>
+        <aside>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="rgb(119, 82, 11)" fill-opacity="1"
+                    d="M0,96L60,90.7C120,85,240,75,360,69.3C480,64,600,64,720,90.7C840,117,960,171,1080,170.7C1200,171,1320,117,1380,90.7L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+                </path>
+            </svg>
+            <hr>
+            <h2>Potrete trovare tra i vari approfondimenti anche...</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/indonesia.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Asia</h5>
+                            <p class="card-text">-Traduzioni di testi antichi giapponesi e cinesi-</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/ingh.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Europa</h5>
+                            <p class="card-text">-Pagine dei diari dei più famosi personaggi storici da Giulio Cesare a Churchill-</p>
+                        </div>
+                    
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/america.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Americhe</h5>
+                            <p class="card-text">-Alcuni misteri irrosolti dei nativi americani-</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <hr>
+            <h2>Registrazione:</h2>
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label">Nome</label>
+                  <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
+                  <div class="valid-feedback">
+                    Ok!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom02" class="form-label">Cognome</label>
+                  <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
+                  <div class="valid-feedback">
+                   Ok!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustomUsername" class="form-label">Username</label>
+                  <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                      Scegli il tuo Username.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <label for="validationCustom03" class="form-label">Città</label>
+                  <input type="text" class="form-control" id="validationCustom03" required>
+                  <div class="invalid-feedback">
+                    La tua città.
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <label for="validationCustom04" class="form-label">Continente</label>
+                  <select class="form-select" id="validationCustom04" required>
+                    <option selected disabled value="">Scegli...</option>
+                    <option>Europeo</option>
+                    <option>Asiatico</option>
+                    <option>Africano</option>
+                    <option>Americano</option>
+                  </select>
+                  <div class="invalid-feedback">
+                   Il tuo stato.
+                  </div>
+                </div>
+               
+            
+                <div class="col-12">
+                    <a href="#" class="btn text-white">Registrati</a>
+                </div>
+              </form>
+        </aside>
+        <!-- Posiziono la sezione delle recensioni/testimonianze -->
+        <section id="reviews" class="reviews">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="rgb(119, 82, 11)" fill-opacity="1"
+                    d="M0,192L60,197.3C120,203,240,213,360,192C480,171,600,117,720,112C840,107,960,149,1080,149.3C1200,149,1320,107,1380,85.3L1440,64L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+                </path>
+            </svg>
+            <div class="container">
+                <div class="row text-center py-5">
+                    <h4 class="display-4 mb-3">Recensioni del nostro sito</h4>
+                    <div class="separator"></div>
+                    <div class="row align-items-center">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <!-- Testimonianza 1 -->
+                                <div class="carousel-item active">
+                                    <!-- Inizio la creazione delle card per il carosello -->
+                                    <div class="reviews-card">
+                                        <p class="lh-lg">
+                                            <i class="bi bi-cht-right-quote"></i>
+                                            This site is so fuc***ng rock, I love it!!!
+                                        </p>
+                                    </div>
+                                    <div class="reviews-img">
+                                        <img src="img/mick.jpg" alt="mick"
+                                            class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="reviews-name">
+                                        <h3>Mick Jagger</h3>
+                                    </div>
+                                </div>
+                                <!-- Testimonianza 2 -->
+                                <div class="carousel-item">
+                                    <!-- Inizio la creazione delle card per il carosello -->
+                                    <div class="reviews-card">
+                                        <p class="lh-lg">
+                                            <i class="bi bi-chat-right-quote"></i>
+                                            Non sono un amante della tecnologia e chi mi conosce lo sa benissimo, eppure trovo questo sito un'ottimo modo per avvicinare i giovani  all'affascinante mondo della storia.
+                                            Per citare Diocleziano direi: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, atque doloribus omnis magnam praesentium, totam nisi, commodi cupiditate dignissimos id doloremque! Quisquam amet animi fugit consequatur accusantium! Laboriosam, accusamus repellat!"
+                                        </p>
+                                    </div>
+                                    <div class="reviews-img">
+                                        <img src="img/barbero.jpg" alt="barbero"
+                                            class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="reviews-name">
+                                        <h3>Alessandro Barbero</h3>
+                                    </div>
+                                </div>
+                                <!-- Testimonianza 3 -->
+                                <div class="carousel-item">
+                                    <!-- Inizio la creazione delle card per il carosello -->
+                                    <div class="reviews-card">
+                                        <p class="lh-lg">
+                                            <i class="bi bi-chat-right-quote"></i>
+                                            Nella mia vita ho vissuto tante avventure, vivendo la storia di antiche popolazioni coi miei occhi visitando ogni parte del mondo, è giusto che adesso anche chi non ha la possibilità di viaggiare possa vivere la passione storica a pieno. 
+                                        </p>
+                                    </div>
+                                    <div class="reviews-img">
+                                        <img src="img/alberto.jpg" alt="Alberto"
+                                            class="img-fluid rounded-circle">
+                                    </div>
+                                    <div class="reviews-name">
+                                        <h3>Alberto Angela</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+    </main>
+
+    <footer class="footer mt-auto py-3  bg-gradient ">
+        <div class="container text-center">
+            <div class="row py-4">
+                <div class="col-md-3 py-4">
+                    <h3><a href="#"><img src="img/logo2.png"></a></h3>
+                </div>
+                <div class="col-md-3">
+                    <h4>Mission & Vision</h4>
+                    <p>Acculturare</p>
+                    <p>Creare sogni</p>
+                    <p>Far vivere la storia</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Chi siamo</h4>
+                    <p>--Sognatori</p>
+                    <p>--Innovatori</p>
+                    <p>--Rivoluzionari</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Contatti</h4>
+                    <p>Telefono:3664445412</p>
+                    <p>Email:Hystory.map@gmail.com</p>
+                    <p>Ogni critica o suggerimento è ben accetto</p>
+                </div>
+            </div>
+            <span>&copy; Edoardo per Epicode School </span>
+        </div>
+    </footer>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
