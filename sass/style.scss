@@ -15,6 +15,12 @@ $dark_color:rgb(16, 2, 73);
 body{
     background-color: $color_bg;
     text-align: center;
+    .navbar-toggler-icon{
+        color: $secondary_color;
+    }
+    span{
+        color: $secondary_color;
+    }
     .btn{
         background-color: $bonus_color;
         
@@ -38,14 +44,13 @@ body{
         .nav-link:checked{
             color: $bonus_color;
         }
-        .btn{
-            background-color: $bonus_color;
-            
-
-        }
-    }
-    main {
        
+    } 
+    main {
+        #prima_sec{
+            margin-bottom: 15rem;
+            color: $white;
+        }
         section{
             margin-bottom: 15rem;
             color: $secondary_color;
@@ -80,4 +85,42 @@ body{
         color: $secondary_color;
         
     }
+}
+@media only screen and (max-width: 670px) {
+              
+    #prima_sec{
+        /* margin-bottom: 15rem; */
+        
+        .card-title{
+            margin-top: 7rem;
+            
+        }
+        .card-text{
+            margin-top: 0.5rem;
+            
+        }
+        .btn{
+            margin-bottom: 15rem;
+        }
+    }
+    
+}
+@media only screen and (max-width: 400px) {
+              
+    #prima_sec{
+        /* margin-bottom: 15rem; */
+        margin-top: 10rem;
+        .card-title{
+            margin-top: 0rem;
+            
+        }
+        .card-text{
+            margin-top: 0.5rem;
+            
+        }
+        .btn{
+            margin-bottom: 0rem;
+        }
+    }
+    
 }

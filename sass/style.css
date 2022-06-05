@@ -11962,6 +11962,14 @@ body {
   text-align: center;
 }
 
+body .navbar-toggler-icon {
+  color: #450606;
+}
+
+body span {
+  color: #450606;
+}
+
 body .btn {
   background-color: #77520b;
 }
@@ -11991,8 +11999,9 @@ body nav .nav-link:checked {
   color: #77520b;
 }
 
-body nav .btn {
-  background-color: #77520b;
+body main #prima_sec {
+  margin-bottom: 15rem;
+  color: #fff;
 }
 
 body main section {
@@ -12023,5 +12032,36 @@ body main form {
 body footer {
   border-top: 4px solid #450606;
   color: #450606;
+}
+
+@media only screen and (max-width: 670px) {
+  #prima_sec {
+    /* margin-bottom: 15rem; */
+  }
+  #prima_sec .card-title {
+    margin-top: 7rem;
+  }
+  #prima_sec .card-text {
+    margin-top: 0.5rem;
+  }
+  #prima_sec .btn {
+    margin-bottom: 15rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #prima_sec {
+    /* margin-bottom: 15rem; */
+    margin-top: 10rem;
+  }
+  #prima_sec .card-title {
+    margin-top: 0rem;
+  }
+  #prima_sec .card-text {
+    margin-top: 0.5rem;
+  }
+  #prima_sec .btn {
+    margin-bottom: 0rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
